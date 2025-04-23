@@ -1,6 +1,6 @@
 # ☁️ Hypothetical Cloud Deployment Plan (High-Level)
 
-This document outlines how one could deploy **The Book Stacker** app to a cloud provider like **AWS** or **Azure**, using modern DevOps tools and container-based workflows.
+This document outlines how one could deploy **The Book Stacker** app to a cloud provider like **AWS** or **Azure**, using DevOps tools. 
 
 ---
 
@@ -13,7 +13,7 @@ This document outlines how one could deploy **The Book Stacker** app to a cloud 
   Leverage GitHub Actions (or GitLab CI / Azure DevOps) to build and run the deployment pipeline
 
 - **Infrastructure Provisioning**:  
-  Use Terraform to spin up a minimal Linux VM (e.g. EC2 on AWS, or a Linux VM on Azure)
+  Use Terraform to spin up a minimal Linux VM 
 
 - **Provisioning & Configuration Management**:  
   Use Ansible to:
