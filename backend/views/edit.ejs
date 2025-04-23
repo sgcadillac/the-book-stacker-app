@@ -1,0 +1,17 @@
+<form method="POST" action="/books/<%= book.id %>?_method=PUT">
+  <!-- Form fields  -->
+  <input
+    type="text"
+    name="author_first_name"
+    value="<%= book.author_first_name %>"
+    required
+  />
+  <input
+    type="text"
+    name="author_last_name"
+    value="<%= book.author_last_name %>"
+    required
+  />
+  <input type="text" name="title" value="<%= book.title %>" required />
+  <button type="submit">Update Book</button>
+</form>
